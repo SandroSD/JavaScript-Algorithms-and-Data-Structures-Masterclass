@@ -13,3 +13,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
 - [Big O Notation](./Big%20O%20Notation/README.md)
 - [Analyzing Performance of Arrays and Objects](./Analyzing%20Performance%20of%20Arrays%20and%20Objects/README.md)
 - [Problem Solving Approach](./Problem%20Solving%20Approach/README.md)
+- [Problem Solving Patterns](./Problem%20Solving%20Patterns/README.md)
