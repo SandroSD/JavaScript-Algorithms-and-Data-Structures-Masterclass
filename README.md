@@ -15,3 +15,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
 - [Problem Solving Approach](./Problem%20Solving%20Approach/README.md)
 - [Problem Solving Patterns](./Problem%20Solving%20Patterns/README.md)
 - [Recursion](./Recursion/README.md)
+- [Searching Algorithms](./Searching%20Algorithms/)
