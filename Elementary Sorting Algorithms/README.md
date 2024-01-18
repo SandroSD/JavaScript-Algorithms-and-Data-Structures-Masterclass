@@ -47,3 +47,36 @@ function compareByLen(str1, str2) {
 
 ["Steele", "Colt", "Data Structures", "Algorithms"].sort(compareByLen); // ["Data Structures", "Algorithms", "Steele", "Colt"]
 ```
+
+## Big O of Elementary Sorting Algorithms
+
+<table width="100%">
+  <tr>
+    <th>Algorithm</th>
+    <th>Time Complexity (Best)</th>
+    <th>Time Complexity (Average)</th>
+    <th>Time Complexity (Worst)</th>
+    <th>Space Complexity</th>
+  </tr>
+  <tr align="center">
+    <td>Bubble Sort</td>
+    <td>O(N)</td>
+    <td>O(N<sup>2</sup>)</td>
+    <td>O(N<sup>2</sup>)</td>
+    <td>O(1)</td>
+  </tr>
+  <tr align="center">
+    <td>Insertion Sort</td>
+    <td>O(N)</td>
+    <td>O(N<sup>2</sup>)</td>
+    <td>O(N<sup>2</sup>)</td>
+    <td>O(1)</td>
+  </tr>
+  <tr align="center">
+    <td>Selection Sort</td>
+    <td>O(N<sup>2</sup>)</td>
+    <td>O(N<sup>2</sup>)</td>
+    <td>O(N<sup>2</sup>)</td>
+    <td>O(1)</td>
+  </tr>
+</table>
