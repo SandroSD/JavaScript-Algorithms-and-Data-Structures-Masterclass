@@ -35,3 +35,7 @@ selectionSort([34, 22, 10, 19, 17]);
 
 - General - **O(N<sup>2</sup>)**
 - Nearly Sorted - **O(N)**
+
+#### Note
+
+If we are worried about writting issues **Selection Sort** is better than **Bubble Sort** because it only writes when you swap and not in every iteration.
