@@ -16,3 +16,5 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
 - [Problem Solving Patterns](./Problem%20Solving%20Patterns/README.md)
 - [Recursion](./Recursion/README.md)
 - [Searching Algorithms](./Searching%20Algorithms/)
+- [Elementary Sorting Algorithms](./Elementary%20Sorting%20Algorithms/README.md)
+  - [Bubble Sort](./Elementary%20Sorting%20Algorithms//Bubble%20Sort//README.md)
