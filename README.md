@@ -20,3 +20,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
   - [Bubble Sort](./Elementary%20Sorting%20Algorithms//Bubble%20Sort//README.md)
   - [Selection Sort](./Elementary%20Sorting%20Algorithms/Selection%20Sort/README.md)
   - [Insertion Sort](./Elementary%20Sorting%20Algorithms/Insertion%20Sort/README.md)
+- [Intermediate Sorting Algorithms](./Intermediate%20Sorting%20Algorithms/README.md)
