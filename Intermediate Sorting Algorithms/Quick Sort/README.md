@@ -84,6 +84,6 @@ function quickSort(arr, left = 0, right = arr.length - 1) {
 
 > **O(N)** comparisons per decomposition
 
-## Space Complexity
+## Space Complexity
 
 - **O(logN)**

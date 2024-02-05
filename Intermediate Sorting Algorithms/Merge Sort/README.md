@@ -74,6 +74,6 @@ function mergeSort(arr) {
 
 > **O(N)** comparisons per decomposition
 
-## Space Complexity
+## Space Complexity
 
 - **O(N)**
