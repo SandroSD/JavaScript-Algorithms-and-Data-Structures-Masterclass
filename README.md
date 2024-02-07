@@ -24,3 +24,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
   - [Merge Sort](./Intermediate%20Sorting%20Algorithms/Merge%20Sort/README.md)
   - [Quick Sort](./Intermediate%20Sorting%20Algorithms/Quick%20Sort/README.md)
   - [Radix Sort](./Intermediate%20Sorting%20Algorithms/Radix%20Sort/README.md)
+- [Data Structures](./Data%20Structures/README.md)
