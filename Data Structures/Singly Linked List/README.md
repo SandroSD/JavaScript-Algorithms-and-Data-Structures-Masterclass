@@ -1,12 +1,12 @@
 # Singly Linked List
 
-## Objectives
+## Objectives
 
 - Define what a Singly Linked List is
 - Compare and contrast Linked Lists with Arrays
 - Implement insertion, removal and traversal methods on Singly Linked Lists
 
-## What is a Linked List?
+## What is a Linked List?
 
 A data structure that contains a **head**, **tail** and **length** property.
 
