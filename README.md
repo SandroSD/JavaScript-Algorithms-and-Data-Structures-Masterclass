@@ -26,3 +26,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
   - [Radix Sort](./Intermediate%20Sorting%20Algorithms/Radix%20Sort/README.md)
 - [Data Structures](./Data%20Structures/README.md)
   - [Singly Linked List](./Data%20Structures/Singly%20Linked%20List/README.md)
+  - [Doubly Linked List](./Data%20Structures/Doubly%20Linked%20List/README.md)
