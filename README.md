@@ -29,3 +29,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
   - [Doubly Linked List](./Data%20Structures/Doubly%20Linked%20List/README.md)
   - [Stack](./Data%20Structures/Stack/README.md)
   - [Queue](./Data%20Structures/Queue/README.md)
+  - [Tree](./Data%20Structures/Tree/README.md)
