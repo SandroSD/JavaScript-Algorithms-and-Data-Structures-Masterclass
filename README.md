@@ -31,3 +31,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
   - [Queue](./Data%20Structures/Queue/README.md)
   - [Tree](./Data%20Structures/Tree/README.md)
     - Tree Traversal
+  - [Heap](./Data%20Structures/Heap/README.md)
