@@ -32,3 +32,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
   - [Tree](./Data%20Structures/Tree/README.md)
     - Tree Traversal
   - [Heap](./Data%20Structures/Heap/README.md)
+  - [Hash Table](./Data%20Structures/Hash%20Table/README.md)
