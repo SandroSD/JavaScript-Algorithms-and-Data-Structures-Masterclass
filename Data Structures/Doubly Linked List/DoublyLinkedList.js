@@ -87,7 +87,7 @@ class DoublyLinkedList {
       current;
 
     if (index <= this.length / 2) {
-      let current = this.head;
+      current = this.head;
 
       while (count !== index) {
         current = current.next;
@@ -95,7 +95,7 @@ class DoublyLinkedList {
       }
     } else {
       count = this.length - 1;
-      let current = this.tail;
+      current = this.tail;
       while (count !== index) {
         current = current.prev;
         count--;
@@ -149,5 +149,27 @@ class DoublyLinkedList {
     this.length--;
 
     return removedNode;
+  }
+
+  reverse() {
+    let currentNode = this.head;
+
+    this.head = this.tail;
+    this.tail = currentNode;
+
+    let nextNode = null;
+    let prevNode = null;
+
+    for (let i = 0; i < this.length; i++) {
+      nextNode = currentNode.next;
+
+      currentNode.next = prevNode;
+      currentNode.prev = nextNode;
+
+      prevNode = currentNode;
+      currentNode = nextNode;
+    }
+
+    return this;
   }
 }
