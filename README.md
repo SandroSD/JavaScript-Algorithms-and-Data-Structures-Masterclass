@@ -34,3 +34,4 @@ https://distillery.udemy.com/course/js-algorithms-and-data-structures-masterclas
   - [Heap](./Data%20Structures/Heap/README.md)
   - [Hash Table](./Data%20Structures/Hash%20Table/README.md)
   - [Graph](./Data%20Structures/Graph/README.md)
+- [Dijkstra's Algorithm](./Dijkstra's%20Algorithm/README.md)
