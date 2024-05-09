@@ -111,7 +111,7 @@ class SinglyLinkedList {
 
     const newNode = new Node(val);
     const previousNode = this.get(index - 1);
-    const tempNode = prev.next;
+    const tempNode = previousNode.next;
 
     previousNode.next = newNode;
     newNode.next = tempNode;
@@ -147,6 +147,23 @@ class SinglyLinkedList {
       node.next = prev;
       prev = node;
       node = next;
+    }
+
+    return this;
+  }
+
+  rotate(place) {
+    if (place === 0 || place >= this.length) return this;
+    if (place < 0) {
+      place = this.length + place;
+    }
+    let current = this.head;
+    let counter = 0;
+    while (counter < place) {
+      this.push(current.val);
+      this.shift(current.val);
+      current = current.next;
+      counter++;
     }
 
     return this;

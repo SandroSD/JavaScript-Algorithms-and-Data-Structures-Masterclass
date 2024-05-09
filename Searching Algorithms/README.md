@@ -65,7 +65,7 @@ linearSearch([34, 56, 1, 2], 1);
 - If you never find the value, return -1
 
 ```javascript
-function binarySearch(arr, val) {
+function binarySearch(arr, elem) {
   let start = 0;
   let end = arr.length - 1;
   let middle = Math.floor((start + end) / 2);
@@ -79,12 +79,12 @@ function binarySearch(arr, val) {
     middle = Math.floor((start + end) / 2);
   }
 
-  /*if (arr[middle] === val) {
+  /*if (arr[middle] === elem) {
     return middle;
   }
 
   return -1;*/
-  return arr[middle] === val ? middle : -1;
+  return arr[middle] === elem ? middle : -1;
 }
 
 binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 15);

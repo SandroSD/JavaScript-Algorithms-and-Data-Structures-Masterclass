@@ -37,6 +37,32 @@ class Heap {
     return max;
   }
 
+  extractMax2() {
+    let max = this.values[0];
+    [this.values[0], this.values[this.values.length - 1]] = [
+      this.values[this.values.length - 1],
+      this.values[0],
+    ];
+    this.values.pop();
+    let pIdx = 0;
+    let lcIdx = 1;
+    let rcIdx = 2;
+    let mc = Math.max(this.values[lcIdx], this.values[rcIdx]);
+    let mcIdx = this.values[lcIdx] === mc ? lcIdx : rcIdx;
+    while (this.values[pIdx] < mc) {
+      [this.values[pIdx], this.values[mcIdx]] = [
+        this.values[mcIdx],
+        this.values[pIdx],
+      ];
+      pIdx = mcIdx;
+      lcIdx = 2 * mcIdx + 1;
+      rcIdx = 2 * mcIdx + 2;
+      mc = Math.max(this.values[lcIdx], this.values[rcIdx]);
+      mcIdx = this.values[lcIdx] === mc ? lcIdx : rcIdx;
+    }
+    return max;
+  }
+
   sinkDown() {
     let index = 0;
     const length = this.values.length;
